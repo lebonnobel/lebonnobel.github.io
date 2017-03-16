@@ -1,0 +1,19 @@
+{
+  "name": "nobelsite",
+  "version": "1.0.0",
+  "description": "A project for DH2321 Information Visualization",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebonnobel/nobel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebonnobel/nobel/issues"
+  },
+  "homepage": "https://github.com/lebonnobel/nobel#readme"
+}

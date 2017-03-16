@@ -1,0 +1,27 @@
+header.jumbotron {
+	color: #f5f5f5;
+	background: #455A64;
+}
+
+div h1, div h2, div h3 {
+	color: #455A64;
+}
+
+.groupMember img {
+	max-width: 100%;
+}
+.groupMember {
+	position: relative;
+	padding-bottom: 40px;
+}
+.groupMember .picture {
+	width: 100%;
+	padding-bottom: 100%;
+	background-size: cover;
+}
+
+.social-links {
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
