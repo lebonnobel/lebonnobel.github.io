@@ -1,12 +1,23 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
 header.jumbotron {
 	color: #f5f5f5;
 	background: #455A64;
 }
+header.jumbotron h1 small { color: #eee; }
 
 div h1, div h2, div h3 {
+	/*font-family: 'Roboto Slab',serif;*/
 	color: #455A64;
+	font-weight: 400;
 }
-
+.groupMember h5 {
+	font-weight: bold;
+	text-align: center;
+}
 .groupMember img {
 	max-width: 100%;
 }
@@ -24,4 +35,20 @@ div h1, div h2, div h3 {
 	position: absolute;
 	bottom: 10px;
 	left: 0;
+}
+
+.social-links a, .social-links a:visited {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	border-radius: 100%;
+	background: #455A64;
+	color: #fff;
+	vertical-align: middle;
+}
+.social-links a i {
+	margin-top: 7px;
+}
+.social-links a:hover {
+	background: #000;
 }

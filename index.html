@@ -7,12 +7,7 @@
 	
   	<title>Le Bon Nobel</title>
 
-  	
-  	<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
-	
-	<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
-	
-	<link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+  	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700" rel="stylesheet">
 	
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css">
@@ -25,17 +20,17 @@
 <!-- Container for our app, using the nobelController -->
 <body ng-app="nobelApp" ng-controller="nobelCtrl" >
 	<header class="jumbotron">
-		<h1>{{projectTitle}}</h1>
-		<h2>A project for DH2321 Information Visualization</h2>
+		<h1>{{projectTitle}}
+		</br><small>A project for DH2321 Information Visualization 2017</small></h1>
 		<a class="btn btn-default" target="_blank" ng-href="{{projectLink}}">View project</a>
 	</header>
 
 	<div class="container-fluid">
-		<div class="col-md-6 col-md-offset-3">
+		<div class="col-md-8 col-md-offset-2">
 			<h2>What is {{projectTitle}}?</h2>
 			<p>Lorem ipsum</p>
 			<a class="btn btn-default" target="_blank" ng-href="{{projectLink}}">View project</a>
-			<a class="btn btn-default" target="_blank" ng-href="{{projectGithub}}">View github</a>
+			<a class="btn btn-default" target="_blank" ng-href="{{projectGithub}}">View on Github</a>
 
 			<h2>Technologies used</h2>
 			<ul>
@@ -54,14 +49,14 @@
 
 			<h2>The team</h2>
 			<div class="row">
-				<div class="col-xs-3 groupMember" ng-repeat="member in groupMembers">
+				<div class="col-xs-6 col-sm-3 groupMember" ng-repeat="member in groupMembers">
 					<div class="picture" style="background-image: url('{{member.img}}');"></div>
 					
 					<h5>{{member.name}}</h5>
 					<p>{{member.role}}</p>
-					<p class="col-md-12 text-center social-links">
-						<a ng-if="member.github" ng-href="{{member.github}}"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-						<a ng-if="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
+					<p class="col-xs-12 text-center social-links">
+						<a ng-if="member.github" ng-href="{{member.github}}"><i class="fa fa-github" aria-hidden="true"></i></a>
+						<a ng-if="member.linkedin" ng-href="{{member.linkedin}}"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 					</p>
 				</div>
 			</div>
