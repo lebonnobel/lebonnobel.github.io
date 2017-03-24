@@ -39,10 +39,10 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "",
 			"linkedin": "",
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/per.png",
 			"name": "Per Jaakonantti",
 			"role": "Frontend",
-			"github": "",
+			"github": "https://github.com/Paeron",
 			"linkedin": "",
 		}, {
 			"img": "img/profile-placeholder.png",
