@@ -21,10 +21,10 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "https://github.com/emmabckstrm",
 			"linkedin": "https://www.linkedin.com/in/emmabackstrom/",			
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/hannes.png",
 			"name": "Hannes Westberg",
 			"role": "Backend",
-			"github": "",
+			"github": "https://github.com/hanneswestberg",
 			"linkedin": "",
 		}, {
 			"img": "img/profile-placeholder.png",
