@@ -8,6 +8,9 @@ header.jumbotron {
 	background: #455A64;
 }
 header.jumbotron h1 small { color: #eee; }
+header.jumbotron h1 a, header.jumbotron h1 a:visited {
+	color: #f5f5f5;
+}
 
 div h1, div h2, div h3 {
 	/*font-family: 'Roboto Slab',serif;*/

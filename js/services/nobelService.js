@@ -13,55 +13,55 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"name": "Caroline Lönn",
 			"role": "Frontend",
 			"github": "",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/emma.png",
 			"name": "Emma Bäckström",
-			"role": "Backend",
+			"role": "Frontend/Backend",
 			"github": "https://github.com/emmabckstrm",
-			"linkedin": "https://www.linkedin.com/in/emmabackstrom/",			
+			"linkedin": "https://www.linkedin.com/in/emmabackstrom/"		
 		}, {
 			"img": "img/hannes.png",
 			"name": "Hannes Westberg",
 			"role": "Backend",
 			"github": "https://github.com/hanneswestberg",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/profile-placeholder.png",
 			"name": "Johanna Gustafsson",
 			"role": "Frontend",
 			"github": "",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/profile-placeholder.png",
 			"name": "Maria Westling",
 			"role": "Frontend",
 			"github": "",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/per.png",
 			"name": "Per Jaakonantti",
 			"role": "Frontend",
 			"github": "https://github.com/Paeron",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/profile-placeholder.png",
 			"name": "Simóne Stenis Perron",
 			"role": "Frontend",
 			"github": "",
-			"linkedin": "",
+			"linkedin": ""
 		}, {
 			"img": "img/profile-placeholder.png",
 			"name": "Thomas von Prouss",
 			"role": "Backend",
 			"github": "",
-			"linkedin": "",
+			"linkedin": ""
 		}
 	];
 
 	this.getGroup = function() {
 		return this.groupMembers;
-	}
+	};
 
 
 	return this;
