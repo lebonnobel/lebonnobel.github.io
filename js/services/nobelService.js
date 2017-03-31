@@ -51,11 +51,11 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "",
 			"linkedin": ""
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/thomas.jpg",
 			"name": "Thomas von Prouss",
 			"role": "Backend",
-			"github": "",
-			"linkedin": ""
+			"github": "https://github.com/zindae",
+			"linkedin": "https://www.linkedin.com/in/thomas-von-prouss-b0386611b/"
 		}
 	];
 
