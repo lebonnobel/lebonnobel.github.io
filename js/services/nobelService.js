@@ -9,7 +9,7 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 
 	this.groupMembers = [
 		{
-			"img": "img/caroline.png",
+			"img": "img/caroline.jpg",
 			"name": "Caroline Lönn",
 			"role": "Frontend",
 			"github": "https://github.com/clonnkth",
