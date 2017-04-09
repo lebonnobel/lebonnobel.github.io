@@ -27,7 +27,7 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "https://github.com/hanneswestberg",
 			"linkedin": ""
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/johanna.png",
 			"name": "Johanna Gustafsson",
 			"role": "Frontend",
 			"github": "",
