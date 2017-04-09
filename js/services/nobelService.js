@@ -27,17 +27,17 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "https://github.com/hanneswestberg",
 			"linkedin": ""
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/johanna.png",
 			"name": "Johanna Gustafsson",
 			"role": "Frontend",
 			"github": "",
 			"linkedin": ""
 		}, {
-			"img": "img/profile-placeholder.png",
+			"img": "img/maria.jpg",
 			"name": "Maria Westling",
 			"role": "Frontend",
-			"github": "",
-			"linkedin": ""
+			"github": "https://github.com/mariawestling",
+			"linkedin": "https://www.linkedin.com/in/maria-westling-097399115/"
 		}, {
 			"img": "img/per.png",
 			"name": "Per Jaakonantti",
