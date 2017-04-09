@@ -33,7 +33,7 @@ nobelApp.factory('nobelService', ['$window', '$http', '$q', function ($window, $
 			"github": "",
 			"linkedin": ""
 		}, {
-			"img": "img/maria.png",
+			"img": "img/maria.jpg",
 			"name": "Maria Westling",
 			"role": "Frontend",
 			"github": "https://github.com/mariawestling",
